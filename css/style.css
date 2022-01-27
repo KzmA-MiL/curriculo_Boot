@@ -1,3 +1,10 @@
+body{
+    font-family: verdana;
+    font-size-adjust: 100%;
+}
+
+
+
 .titulo { 
     text-decoration: none;
     color: white;
@@ -7,4 +14,79 @@
     }   
     .container {
     padding: 60px 10px 0px;
+    }
+    .marginimg{
+        margin-top:100px;
+    }
+    .sobre{
+        background-color:#F2F2F2;
+        padding-bottom: 20%;
+        padding-top:10%;
+    }
+    .objetivo{
+        background-color:#BDBDBD;
+        padding-bottom: 30%;
+        padding-top:5%;
+    }
+    .habil{
+        background-color:#F2F2F2;
+        padding-bottom: 20%;
+        padding-top:5%; 
+    }
+    .experi{
+        background-color:#BDBDBD;
+        padding-bottom: 20%;
+        padding-top:5%;
+    }
+    .educa{
+        background-color:#F2F2F2;
+        padding-bottom: 20%;
+        padding-top:5%;
+    }
+    .referenc{
+        background-color:#BDBDBD;
+        padding-bottom: 1%;
+        padding-top:5%;
+    }
+
+
+
+    .sub_texto{
+        font-family:verdana;
+        font-size:20px;
+    }
+
+    .lista_links_ref {
+        text-align: left;
+        margin-bottom: 50px;
+        margin-top: 0px;
+        list-style-type: none;
+        padding-left: 0px; /*  alinhar  a lista/itens da lista sem margem,  logo abaixo dos textos*/
+    }
+
+    .link_ref{
+        /*display:inline-block;*/
+        margin-right: 40px;
+        
+    }
+
+    .linkk{
+        color:black;
+        text-decoration: none;
+        margin-top: 100px;
+    }
+    a:hover.linkk {   /* atributo para mudar a cor do linkk quando passo o mouse */
+        color:grey;
+    }
+    .link_fo{
+        display:inline-block;
+        margin-right:90px;
+    }
+    .lista_links{
+        text-align:left;
+        
+    }
+    .rodape{
+        text-align:center;
+        
     }
